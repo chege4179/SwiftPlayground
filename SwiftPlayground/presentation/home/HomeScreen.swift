@@ -16,6 +16,9 @@ struct HomeScreen: View {
             Button("Go to All Posts") {
                 router.navigate(to: .all_posts)
             }
+            Button("Go to Login Screen") {
+                router.navigate(to: .login)
+            }
         }
         .navigationTitle("Home")
     }

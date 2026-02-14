@@ -11,6 +11,7 @@ import Foundation
 enum Route: Hashable {
     case home
     case all_posts
+    case login
     case post_details(id: Int)
     
 }

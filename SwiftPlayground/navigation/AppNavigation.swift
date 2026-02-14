@@ -24,8 +24,11 @@ struct AppNavigation: View {
                         PostsScreen()
                     case .post_details(let id):
                         PostScreen(postId: id)
+                    case .login:
+                        LoginScreen()
                 
                     }
+                    
                 }
         }
         .environmentObject(router)
