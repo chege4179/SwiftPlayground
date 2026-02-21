@@ -26,6 +26,9 @@ struct AppNavigation: View {
                         PostScreen(postId: id)
                     case .login:
                         LoginScreen()
+                        
+                    case .bottomsheet:
+                        BottomSheetScreen()
                 
                     }
                     

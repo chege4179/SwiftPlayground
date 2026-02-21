@@ -13,6 +13,9 @@ struct HomeScreen: View {
     
     var body: some View {
         VStack(spacing: 20) {
+            Button("Go to Bottom sheet screen") {
+                router.navigate(to: .bottomsheet)
+            }
             Button("Go to All Posts") {
                 router.navigate(to: .all_posts)
             }
